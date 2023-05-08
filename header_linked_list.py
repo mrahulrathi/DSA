@@ -126,13 +126,3 @@ while True:
     else:
         print("wrong option")
     print()
-
-
-
-
-
-
-
-
-
-

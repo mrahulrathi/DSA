@@ -4,6 +4,7 @@ class Node(object):
         self.info = value
         self.link = None
 
+
 class SortedLinkedList(object):
 
     def __init__(self):
