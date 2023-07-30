@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+
+<div class="divcontainer-fluid px-3">
+  {% comment %} <div class="text-bg-info p-3"> {% endcomment %}
+    {% comment %} <div class="col-sm-6" style="margin: 0 auto; float: none;"> {% endcomment %}
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/static/1.jpg" alt="..." class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/1100x400/?ice creams" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/1100x400/?softy" class="d-block w-100"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      {% comment %} </div> {% endcomment %}
+    
+    {% comment %} </div> {% endcomment %}
+</div>
+
+
+<main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-2">
+        <div class="col-lg-6 col-md-4 mx-auto">
+          <h1 class="fw-DARK">WIDE RANGE OF PRODUCTS</h1>
+          {% comment %} <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> {% endcomment %}
+        </div>
+      </div>
+    </section>
+  
+    <div class="album py-1 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?ice creams" class="center"  alt="...">
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">Ice Cream</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?cake" class="center"  alt="...">
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">Cake</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?pastry" class="center"  alt="...">
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">Pastry</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?cookies" class="center"  alt="...">
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">Cookies</p>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?Ice cream cones" class="center"  alt="...">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">Cones</p>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <img src="https://source.unsplash.com/random/361x300/?butterscotch" class="center"  alt="...">
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <p class="card-text">butterscotch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+{% endblock body %}
